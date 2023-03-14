@@ -2,6 +2,15 @@
     display: flex;
     flex-direction: column;
   }
+
+  .blogItem-wrap img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+  }
+
   .blogItem-cover {
     width: 100%;
     height: 250px;
